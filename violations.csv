@@ -1,0 +1,2 @@
+,plate,state,license_type,summons_number,issue_date,violation_time,violation,fine_amount,penalty_amount,interest_amount,reduction_amount,payment_amount,amount_due,precinct,county,issuing_agency,violation_status,summons_image,weekday
+0,KYV3973,NY,PAS,1452055555,2025-07-27 00:00:00+00:00,01:56P,NO PARKING-EXC. DSBLTY PERMIT,180,10,0,190,0,0,30,NY,NYS PARKS POLICE,HEARING HELD-NOT GUILTY,"{'url': 'http://nycserv.nyc.gov/NYCServWeb/ShowImage?searchID=VFZSUk1VMXFRVEZPVkZVeFRsRTlQUT09&locationName=_____________________', 'description': 'View Summons'}",Sunday
