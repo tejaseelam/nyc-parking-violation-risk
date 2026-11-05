@@ -112,7 +112,7 @@ The collector retains the original 10,000-record daily cap to reflect the study 
 
 ## Reproducibility and limitations
 
-- **Publication changes:** repaired accidentally pasted code in the collection cell, directed CSV outputs to ``, replaced the unavailable shapefile path with the supplied GeoJSON, removed the inline package install, and completed the final R-score logistic regression fit/evaluation. Stale notebook outputs and execution counts were cleared; two saved figures are retained separately above.
+- **Publication changes:** repaired accidentally pasted code in the collection cell, directed CSV outputs to the repository root, replaced the unavailable shapefile path with the supplied GeoJSON, removed the inline package install, and completed the final R-score logistic regression fit/evaluation. Stale notebook outputs and execution counts were cleared; two saved figures are retained separately above.
 - **Validation:** all notebook code cells were checked for Python syntax. A full execution and dependency compatibility check have not been performed because the complete study CSV was not supplied.
 - **Sampling and coverage:** the daily cap and removal of zero/missing precincts can change the observed violation mix, particularly camera-related records. Counts are not adjusted for traffic volume or parking exposure.
 - **County and spatial quality:** inconsistent county abbreviations and implausible county/precinct combinations require reconciliation before interpreting local risk or building a reliable map.
@@ -126,6 +126,6 @@ The collector retains the original 10,000-record daily cap to reflect the study 
 
 The notebook queries NYC Open Data dataset [`nc67-uf89`](https://data.cityofnewyork.us/resource/nc67-uf89.json). The report instead cites [Parking Violations Issued – Fiscal Year 2024](https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2024/pvqr-7yc4/about_data); these are different dataset identifiers, so use the notebook endpoint when investigating this analysis's provenance rather than assuming the sources are interchangeable.
 
-The report's boundary reference is [NYC Police Precincts on ArcGIS Hub](https://hub.arcgis.com/datasets/c35786feb0ac4d1b964f41f874f151c1_0/about). A copy of the supplied precinct GeoJSON is included in ``.
+The report's boundary reference is [NYC Police Precincts on ArcGIS Hub](https://hub.arcgis.com/datasets/c35786feb0ac4d1b964f41f874f151c1_0/about). A copy of the supplied precinct GeoJSON is included in the repository root.
 
 The original report is included unchanged. Source datasets remain subject to their providers' terms. No additional software license is assigned in this repository.
